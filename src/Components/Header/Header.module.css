@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    /*height: 176px;*/
+    opacity: 0.8;
+    /*gap: 255px;*/
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(204, 204, 204, 1)
+}
+.logo{
+    width: 301px;
+    height: 72px;
+}
+.labelMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    height: 78px;
+}
+.label{
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: right;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+.textContent{
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+}
+.mainTitle{
+    width: 784px;
+    height: 256px;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+}
+.secondaryTitle{
+    width: 1046px;
+    height: 168px;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color: rgba(94, 94, 94, 1);
+}
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.userContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+.img{
+    width: 260px;
+    height: 100px;
+}
+.overPeople{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 100px;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: right;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+}
+.over100000{
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: right;
+    vertical-align: middle;
+}
+.OrangeMen{
+    margin-top: 125px;
+    top:100px;
+    width: 500px;
+    height: 500px;
+}
